@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrito</title>
-    <link rel="stylesheet" href="/css/estilos.css" type="text/css">
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
 </head>
 <body class="carrito">
     <header>
@@ -30,31 +30,49 @@
             <li><a href="#">Numero de telefono:</a></li>
             </ul>
             </li>
-            <li><a href="#">Productos</a></li>
+            <li><a href="/pages/productos.html">Productos</a></li>
             <li><a href="#">Destacado</a></li>
             <li><a href="#">Ofertas</a></li>
         </ul>
         </nav>
     </header>
     <main>
-        <div class="cart-container">
-            <div class="cart-items">
-                <h2>Productos seleccionados</h2>
-                <ul>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                </ul>
-            </div>
-            <div class="cart-total">
-                <h2>Total</h2>
-                <p>$75.00</p>
-            </div>
+        <div class="productos">
+    <div class="productoMasCarrito">    
+        <div class="producto">
+            <img src="/img/vino1.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$4250</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="/img/vino2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>$1500</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="/img/vino3.jpg" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>$3600</p>
+            <button>Añadir al carrito</button>
+        </div>
+        </div>
+    </div>    
+        <div class="carritoDeCompras">
+        <h2>Carrito de Compras</h2>
+        <ul>
+            <li>Producto 1 - $4250</li>
+            <li>Producto 2 - $1500</li>
+            <li>Producto 3 - $3600</li>
+        </ul>
+        <p>Total: $9350</p>
+        <button>Comprar</button>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2023 Vinos Online</p>
+        <p>&copy; 2023 - Patricio Santo</p>
     </footer>
     
 </body>
